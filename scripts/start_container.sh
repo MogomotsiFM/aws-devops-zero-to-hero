@@ -7,4 +7,4 @@ sudo docker pull "mogomotsi/simple-python-flask-app:latest"
 
 # Run the Docker image as a container
 echo "Starting the Docker container"
-sudo docker run -d -p 5000:80 "mogomotsi/simple-python-flask-app"
+sudo docker run -d -p 5000:5000 "mogomotsi/simple-python-flask-app"
